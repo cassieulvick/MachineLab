@@ -1,3 +1,3 @@
 here is my picture:
 
-![](../images/IMG_1038.jpg)
+![](MachineLab/assignment1/images/IMG_1038.jpg)

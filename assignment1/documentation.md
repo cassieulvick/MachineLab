@@ -16,4 +16,4 @@ final piece:
 ![](images/IMG_1041.jpg)
 
 demo video:
-![](images/IMG_1046.mp4)
+[https://youtu.be/KPpZDVg6A7Y](https://youtu.be/KPpZDVg6A7Y)

@@ -1,6 +1,6 @@
 overall project: 
 
-![](MachineLab/assignment1/images/IMG_1038.jpg)
+![](images/IMG_1038.jpg)
 
 rotating mechanism:
 

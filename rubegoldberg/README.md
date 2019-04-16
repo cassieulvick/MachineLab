@@ -11,3 +11,7 @@ Improving reliability:
 - stable path for tire to follow
 - protect snap action switch
 - mechanism for cutting string
+
+Wood plan:
+
+![](images/woodplan.jpeg)

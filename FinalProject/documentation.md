@@ -17,6 +17,7 @@ IMPORTANT PARTS -
 
 SCHEMATIC - 
 Each motor shield/Arduino board has the following structure:
+![](images/schematic.jpg)
 
 ELECTRONICS PICTURES - 
 ![](images/electronics1.JPG)

@@ -11,3 +11,6 @@ Top 3 questions:
 1. How can I best run 5 servo motors at one time? 
 2. What material would be best for the drums?
 3. Is this project feasible?
+
+
+FINAL DOCUMENTATION: https://github.com/cassieulvick/MachineLab/blob/master/FinalProject/documentation.md

@@ -1,35 +1,35 @@
 FINAL PROJECT DOCUMENTATION
 
-OVERALL CONCEPT
+OVERALL CONCEPT - 
 My final project involves the concept of finger drumming. I wanted to turn the act of drumming your fingers, such as on a table, into a physical instrument - when the user drums each of their fingers, individual "actual" drums will be played, giving both visual and auditory amplification to a simple finger motion that most people do.
 
-DEMO VIDEO
+DEMO VIDEO - 
 https://youtu.be/ZwqEvP2Jsmc
 
-OVERALL PICTURE
+OVERALL PICTURE - 
 ![](images/overall.JPG)
 
-IMPORTANT PARTS
+IMPORTANT PARTS - 
 - 4 servo motors
 - 4 FSRs
 - 4 "drums" (empty cans with the opening face taped closed tightly with masking tape)
 - 2 Arduino Unos + 2 motor shields (2 servo motors and 2 FSRs attach to each board)
 
-SCHEMATIC
+SCHEMATIC - 
 Each motor shield/Arduino board has the following structure:
 
-ELECTRONICS PICTURES
+ELECTRONICS PICTURES - 
 ![](images/electronics1.JPG)
 ![](images/electronics2.JPG)
 
-CODE
+CODE - 
 This same code was uploaded to each Arduino Uno:
 https://github.com/cassieulvick/MachineLab/blob/master/FinalProject/finalProjectCode.ino
 
-HOW IT WORKS
+HOW IT WORKS - 
 Each motor shield and Arduino board are connected to two FSRs and two servo motors. Each FSR corresponds to one servo motor. When the user touches an FSR, the corresponding servo moves down and up, which allows the attached popsicle stick to drum the corresponding can. Since each can is a different size, they all emit different tones.
 
-HOW IT WAS BUILT + PROBLEMS ENCOUNTERED
+HOW IT WAS BUILT + PROBLEMS ENCOUNTERED - 
 I started out by testing the mechanism of getting the FSR to trigger the servo motor drum. I initially did this by mapping the FSR values to the position of the servo motor, which allowed for an effective "bang" sound. After this, I hooked up the remaining three FSRs and servo motors. Jack suggested using two Arduinos and two motor shields, putting two servo motors on each Arduino board, because it would be difficult to control four servos on one board.
 The next step was making a good drum. Taking inspiration from an online article (https://www.wikihow.com/Make-a-Homemade-Drum), I decided to collect some cans with varying sizes and cover the openings with masking tape. However, instead of having the "drumstick" bang on the taped side, I attached it to bang on the metal side, as it made a better sound.
 Next, I built the structure of the instrument. The structure to hold the drums and servos were pretty straightforward, but I struggled more with how to place the FSRs. I initially wanted to create a wearable glove, and attach the FSRs to where the user's fingertips go. I did find a glove in the IM lab, but it was very awkward to wear since my hand was way too small for it - my fingers didn't reach the tips where the FSR would ideally be placed. To accommodate this issue, I decided to have a control board of sorts instead of a glove. The FSRs are placed on top of a circle wood block, so that the user can comfortably rest their hand on it, regardless of size.
